@@ -2,6 +2,7 @@
 
 Cho mảng sinh viên như sau:
 
+```js
 var students = [
     {
         id: 1,
@@ -53,6 +54,7 @@ var students = [
         hoa: 9,
     }
 ];
+```
 
 1. Kiểm tra xem có phải tất cả sinh viên đều có các môn trên điểm trung bình không? (biết điểm trung bình là 5)
 
