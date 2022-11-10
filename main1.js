@@ -53,7 +53,7 @@ var students = [
 
 // 1. Kiểm tra xem có phải tất cả sinh viên đều có các môn trên điểm trung bình không?
 var isEveryPass = students.every(function (student, index) {
-    return student.toan > 5 && student.ly > 5 && student.hoa > 5;
+    return student.toan >= 5 && student.ly >= 5 && student.hoa >= 5;
 });
 
 if (isEveryPass) {
