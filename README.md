@@ -6,7 +6,7 @@
 const students = [
     {
         id: 1,
-        ten: "Dinh",
+        name: "Dinh",
         diachi: "hue"
     },
     {

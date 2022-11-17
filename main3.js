@@ -1,7 +1,7 @@
 var students = [
     {
         id: 1,
-        ten: "Dinh",
+        name: "Dinh",
         diachi: "hue"
     },
     {
@@ -38,7 +38,9 @@ var students = [
 
 students = students.map(function (student) {
     return {
-        ...student,
+        id: student.id,
+        name: student.name,
+        diachi: student.diachi,
         toan: Math.floor(Math.random() * 11),
         ly: Math.floor(Math.random() * 11),
         hoa: Math.floor(Math.random() * 11)
