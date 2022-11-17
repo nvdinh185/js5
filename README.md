@@ -1,6 +1,50 @@
-## Đây là ví dụ áp dụng các hàm forEach, every, some, filter, find, map, reduce:
+# BÀI TẬP ĐỂ ÁP DỤNG CÁC HÀM forEach, every, some, filter, find, map, reduce:
 
-Cho mảng sinh viên như sau:
+## Bài tập 1: Cho mảng sinh viên gồm các thông tin sau:
+
+```js
+const students = [
+    {
+        id: 1,
+        ten: "Dinh",
+        diachi: "hue"
+    },
+    {
+        id: 2,
+        name: "Nam",
+        diachi: "quang nam"
+    },
+    {
+        id: 3,
+        name: "Tan",
+        diachi: "da nang"
+    },
+    {
+        id: 4,
+        name: "Hung",
+        diachi: "hue"
+    },
+    {
+        id: 5,
+        name: "Tri",
+        diachi: "quang tri"
+    },
+    {
+        id: 6,
+        name: "Anh",
+        diachi: "hue"
+    },
+    {
+        id: 7,
+        name: "Binh",
+        diachi: "da nang"
+    }
+];
+```
+
+- Thêm các thuộc tính điểm Toán, điểm Lý, điểm Hóa để lưu thông tin điểm thi cho các sinh viên là các số ngẫu nhiên từ 0 đến 10
+
+## Bài tập 2: Cho mảng sinh viên như sau:
 
 ```js
 var students = [
