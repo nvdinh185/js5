@@ -28,13 +28,13 @@ var courses = [
 
 var isEveryFree = courses.every(function (course, index) {
     console.log(index);
-    return course.coin == 0;
+    return course.coin === 0;
 })
 console.log("isEveryFree: " + isEveryFree);
 
 var isSomeFree = courses.some(function (course, index) {
     console.log(index);
-    return course.coin == 0;
+    return course.coin === 0;
 })
 
 console.log("isSomeFree: " + isSomeFree);

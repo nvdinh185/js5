@@ -43,6 +43,13 @@ for (let i = 0; i < courses.length; i++) {
 
 console.log(totalCoin1);
 
+var totalCoin2 = 0;
+for (let course of courses) {
+    totalCoin2 += course.coin;
+}
+
+console.log(totalCoin2);
+
 var totalCoin = courses.reduce(function (total, course) {
     return total + course.coin;
 }, 0);
