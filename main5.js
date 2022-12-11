@@ -21,34 +21,34 @@ const students = [
         ly: 4,
         hoa: 5,
     },
-    // {
-    //     id: 4,
-    //     name: "Hung",
-    //     toan: 9,
-    //     ly: 7,
-    //     hoa: 7,
-    // },
-    // {
-    //     id: 5,
-    //     name: "Tri",
-    //     toan: 9,
-    //     ly: 8,
-    //     hoa: 9,
-    // },
-    // {
-    //     id: 6,
-    //     name: "Anh",
-    //     toan: 9,
-    //     ly: 10,
-    //     hoa: 9,
-    // },
-    // {
-    //     id: 7,
-    //     name: "Binh",
-    //     toan: 3,
-    //     ly: 6,
-    //     hoa: 9,
-    // }
+    {
+        id: 4,
+        name: "Hung",
+        toan: 9,
+        ly: 7,
+        hoa: 7,
+    },
+    {
+        id: 5,
+        name: "Tri",
+        toan: 9,
+        ly: 8,
+        hoa: 9,
+    },
+    {
+        id: 6,
+        name: "Anh",
+        toan: 9,
+        ly: 10,
+        hoa: 9,
+    },
+    {
+        id: 7,
+        name: "Binh",
+        toan: 3,
+        ly: 6,
+        hoa: 9,
+    }
 ];
 
 const menu = `== QUẢN LÝ SINH VIÊN ==

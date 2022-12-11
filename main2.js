@@ -27,11 +27,9 @@ var courses = [
 ]
 
 var newCourses = courses.map(function (course) {
-    return {
-        ...course,
-        name: `Khoa hoc ${course.name}`,
-        textCoin: `Gia ${course.coin}`
-    };
+    course.name = `Khoa hoc ${course.name}`;
+    course.textCoin = `Gia ${course.coin}`;
+    return course;
 });
 
 console.log(newCourses);

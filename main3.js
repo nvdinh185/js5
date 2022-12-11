@@ -37,14 +37,10 @@ var students = [
 ];
 
 students = students.map(function (student) {
-    return {
-        id: student.id,
-        name: student.name,
-        address: student.address,
-        toan: Math.floor(Math.random() * 11),
-        ly: Math.floor(Math.random() * 11),
-        hoa: Math.floor(Math.random() * 11)
-    }
+    student.toan = Math.floor(Math.random() * 11);
+    student.ly = Math.floor(Math.random() * 11);
+    student.hoa = Math.floor(Math.random() * 11);
+    return student;
 });
 
 console.log(students);
