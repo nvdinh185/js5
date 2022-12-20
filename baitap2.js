@@ -1,4 +1,3 @@
-
 const students = [
     {
         id: 1,
@@ -84,7 +83,11 @@ do {
         case '3':
             var idSt = prompt("Nhập mã sinh viên muốn tìm: ");
             var foundSt = findStudent(students, Number(idSt));
-            console.log(foundSt);
+            if (foundSt) {
+                console.log(foundSt);
+            } else {
+                console.log('Không tìm thấy!');
+            }
             break;
         case '4':
             var listGoods = filterGoodStudents(students);

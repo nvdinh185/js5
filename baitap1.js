@@ -43,4 +43,9 @@ students = students.map(function (student) {
     return student;
 });
 
-console.log(students);
+for (const el of students) {
+    for (const key in el) {
+        console.log(key + ": " + el[key]);
+    }
+    console.log('===================');
+}

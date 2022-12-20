@@ -43,11 +43,23 @@ const students = [
 ```
 
 - Thêm các thuộc tính điểm Toán, điểm Lý, điểm Hóa để lưu thông tin điểm thi cho các sinh viên là các số ngẫu nhiên từ 0 đến 10
+- Hiển thị danh sách sinh viên trong danh sách theo định dạng:
+
+```html
+
+    id: 0
+    name: abc
+    address: xyz
+    toan: 0
+    ly: 0
+    hoa: 0
+ 
+```
 
 ## Bài tập 2: Cho mảng sinh viên như sau:
 
 ```js
-var students = [
+const students = [
     {
         id: 1,
         name: "Dinh",
@@ -100,14 +112,29 @@ var students = [
 ];
 ```
 
-1. Kiểm tra xem có phải tất cả sinh viên đều có các môn trên điểm trung bình không? (biết điểm trung bình là 5)
-
-2. Kiểm tra xem có sinh viên nào xếp loại giỏi không? (có các môn đều 8 điểm trở lên)
-
-3. Lọc ra các sinh viên xếp loại giỏi và in ra thông tin gồm Tên, Toán, Lý, Hóa
-
-4. Tìm 1 sinh viên xếp loại giỏi
-
+Tạo menu như sau:
+---------------------------------------
+1. Nhập dữ liệu
+2. Xuất dữ liệu
+3. Tìm sinh viên
+4. Lọc ra các sinh viên xếp loại giỏi
 5. Cộng cho mỗi sinh viên 1 điểm toán
+6. Thêm thuộc tính tổng điểm 3 môn
+7. Tính tổng điểm của các sinh viên
+8. Sắp xếp danh sách sinh viên theo tổng điểm tăng dần
+9. Tính điểm trung bình của các sinh viên
+10. Xóa sinh viên
+0. Thoát
+---------------------------------------
 
-6. Tính tổng điểm toán của các sinh viên, và tính điểm toán trung bình của các sinh viên
+- Khi chọn 1: Nhập 1 sinh viên và thêm vào danh sách
+- Khi chọn 2: Hiển thị danh sách sinh viên hiện có
+- Khi chọn 3: Tìm sinh viên theo id và hiển thị , nếu không tìm thấy thì hiển thị "Không tìm thấy!"
+- Khi chọn 4: Lọc ra các sinh viên xếp loại giỏi và hiển thị
+- Khi chọn 5: Cộng cho mỗi sinh viên 1 điểm toán
+- Khi chọn 6: Thêm thuộc tính sum để lưu tổng điểm 3 môn
+- Khi chọn 7: Tính tổng điểm của các sinh viên
+- Khi chọn 8: Sắp xếp danh sách sinh viên theo tổng điểm tăng dần
+- Khi chọn 9: Tính điểm trung bình của các sinh viên
+- Khi chọn 10: Xóa sinh viên theo id
+- Khi chọn 0: Thoát khỏi hệ thống và in ra dòng chữ: "Goodbye!"
