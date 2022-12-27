@@ -138,3 +138,56 @@ Tạo menu như sau:
 - Khi chọn 9: Tính điểm trung bình của các sinh viên
 - Khi chọn 10: Xóa sinh viên theo id
 - Khi chọn 0: Thoát khỏi hệ thống và in ra dòng chữ: "Goodbye!"
+
+## Bài tập 3: Cho mảng sinh viên và mảng danh sách lớp như sau:
+
+```js
+const students = [
+    {
+        id: 1,
+        name: 'Nguyen Van A',
+        classId: 1
+    },
+    {
+        id: 2,
+        name: 'Nguyen Van B',
+        classId: 2
+    },
+    {
+        id: 3,
+        name: 'Nguyen Van C',
+        classId: 3
+    },
+    {
+        id: 4,
+        name: 'Nguyen Van D',
+        classId: 1
+    },
+    {
+        id: 5,
+        name: 'Nguyen Van E',
+        classId: 1
+    }
+]
+
+const classList = [
+    {
+        id: 1,
+        name: "CNTT"
+    },
+    {
+        id: 2,
+        name: 'DTVT'
+    },
+    {
+        id: 3,
+        name: 'HoaTP'
+    },
+    {
+        id: 4,
+        name: 'XDDD'
+    }
+]
+```
+
+Hãy hiển thị danh sách sinh viên thuộc lớp CNTT theo dạng bảng gồm các thông tin: id, studentName, className
