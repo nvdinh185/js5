@@ -17,7 +17,7 @@ const students = [
         id: 3,
         name: "Tan",
         toan: 3,
-        ly: 4,
+        ly: 5,
         hoa: 5,
     },
     {
@@ -61,7 +61,8 @@ const menu = `== QUẢN LÝ SINH VIÊN ==
 8. Sắp xếp danh sách sinh viên theo tổng điểm tăng dần
 9. Tính điểm trung bình của các sinh viên
 10. Xóa sinh viên
-0. Thoát
+0. Làm sạch giao diện console
+11. Thoát
 
 Nhập thao tác lựa chọn:`;
 
@@ -76,6 +77,7 @@ do {
         case '1':
             inputSinhVien(students);
             alert('Đã thêm thành công!');
+            displaySinhVien(students);
             break;
         case '2':
             displaySinhVien(students);
@@ -95,15 +97,18 @@ do {
             break;
         case '5':
             addMath(students);
+            displaySinhVien(students);
             break;
         case '6':
             addPropertySum(students);
+            displaySinhVien(students);
             break;
         case '7':
             console.log("Tổng điểm của các sinh viên: ", totalMath(students));
             break;
         case '8':
             sortStudents(students);
+            displaySinhVien(students);
             break;
         case '9':
             console.log("Điểm trung bình của các sinh viên: ", totalMath(students) / students.length);
@@ -111,8 +116,12 @@ do {
         case '10':
             var idSt = prompt("Nhập mã sinh viên muốn xóa: ");
             deleteStudent(students, Number(idSt));
+            displaySinhVien(students);
             break;
         case '0':
+            console.clear();
+            break;
+        case '11':
             console.log("Good bye!");
             cont = false;
             break;
