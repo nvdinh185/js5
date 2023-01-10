@@ -42,7 +42,7 @@ students = students.map(function (student) {
     student.hoa = Math.floor(Math.random() * 11);
     return student;
 });
-
+console.log("=== DANH SÁCH SINH VIÊN ===");
 for (const el of students) {
     for (const key in el) {
         console.log(key + ": " + el[key]);

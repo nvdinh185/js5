@@ -50,7 +50,8 @@ const students = [
     }
 ];
 
-const menu = `== QUẢN LÝ SINH VIÊN ==
+const menu = `=== QUẢN LÝ SINH VIÊN ===
+0. Làm sạch giao diện console
 1. Nhập dữ liệu
 2. Xuất dữ liệu
 3. Tìm sinh viên
@@ -61,7 +62,6 @@ const menu = `== QUẢN LÝ SINH VIÊN ==
 8. Sắp xếp danh sách sinh viên theo tổng điểm tăng dần
 9. Tính điểm trung bình của các sinh viên
 10. Xóa sinh viên
-0. Làm sạch giao diện console
 11. Thoát
 
 Nhập thao tác lựa chọn:`;
@@ -73,6 +73,9 @@ do {
     switch (input) {
         case '':
             alert("Vui lòng nhập thao tác lựa chọn!");
+            break;
+        case '0':
+            console.clear();
             break;
         case '1':
             inputSinhVien(students);
@@ -117,9 +120,6 @@ do {
             var idSt = prompt("Nhập mã sinh viên muốn xóa: ");
             deleteStudent(students, Number(idSt));
             displaySinhVien(students);
-            break;
-        case '0':
-            console.clear();
             break;
         case '11':
             console.log("Good bye!");

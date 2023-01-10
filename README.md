@@ -3,7 +3,7 @@
 ## Bài tập 1: Cho mảng sinh viên gồm các thông tin sau:
 
 ```js
-const students = [
+var students = [
     {
         id: 1,
         name: "Dinh",
@@ -43,18 +43,9 @@ const students = [
 ```
 
 - Thêm các thuộc tính điểm Toán, điểm Lý, điểm Hóa để lưu thông tin điểm thi cho các sinh viên là các số ngẫu nhiên từ 0 đến 10
-- Hiển thị danh sách sinh viên trong danh sách theo định dạng:
+- Hiển thị các sinh viên trong danh sách như sau:
 
-```html
-
-    id: 0
-    name: abc
-    address: xyz
-    toan: 0
-    ly: 0
-    hoa: 0
- 
-```
+![alt text](image.jpg)
 
 ## Bài tập 2: Cho mảng sinh viên như sau:
 
@@ -114,6 +105,7 @@ const students = [
 
 Tạo menu như sau:
 ---------------------------------------
+0. Làm sạch giao diện console
 1. Nhập dữ liệu
 2. Xuất dữ liệu
 3. Tìm sinh viên
@@ -124,10 +116,10 @@ Tạo menu như sau:
 8. Sắp xếp danh sách sinh viên theo tổng điểm tăng dần
 9. Tính điểm trung bình của các sinh viên
 10. Xóa sinh viên
-0. Làm sạch giao diện console
 11. Thoát
 ---------------------------------------
 
+- Khi chọn 0: Làm sạch giao diện console
 - Khi chọn 1: Nhập 1 sinh viên và thêm vào danh sách
 - Khi chọn 2: Hiển thị danh sách sinh viên hiện có
 - Khi chọn 3: Tìm sinh viên theo id và hiển thị , nếu không tìm thấy thì hiển thị "Không tìm thấy!"
@@ -138,7 +130,6 @@ Tạo menu như sau:
 - Khi chọn 8: Sắp xếp danh sách sinh viên theo tổng điểm tăng dần
 - Khi chọn 9: Tính điểm trung bình của các sinh viên
 - Khi chọn 10: Xóa sinh viên theo id
-- Khi chọn 0: Làm sạch giao diện console
 - Khi chọn 11: Thoát khỏi hệ thống và in ra dòng chữ: "Goodbye!"
 
 ## Bài tập 3: Cho mảng sinh viên và mảng danh sách lớp như sau:
@@ -193,3 +184,5 @@ const classList = [
 ```
 
 Hãy hiển thị danh sách sinh viên thuộc lớp CNTT theo dạng bảng gồm các thông tin: id, studentName, className
+
+![alt text](image2.jpg)
