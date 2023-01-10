@@ -1,27 +1,27 @@
 const students = [
     {
         id: 1,
-        name: 'Nguyen Van A',
+        name: 'Nguyen Van Teo',
         classId: 1
     },
     {
         id: 2,
-        name: 'Nguyen Van B',
+        name: 'Nguyen Van Ti',
         classId: 2
     },
     {
         id: 3,
-        name: 'Nguyen Van C',
+        name: 'Tran Van Tun',
         classId: 3
     },
     {
         id: 4,
-        name: 'Nguyen Van D',
+        name: 'Nguyen Thi Heo',
         classId: 1
     },
     {
         id: 5,
-        name: 'Nguyen Van E',
+        name: 'Le Thi Be',
         classId: 1
     }
 ]
@@ -37,7 +37,7 @@ const classList = [
     },
     {
         id: 3,
-        name: 'HoaTP'
+        name: 'THXD'
     },
     {
         id: 4,
