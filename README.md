@@ -124,7 +124,8 @@ Tạo menu như sau:
 8. Sắp xếp danh sách sinh viên theo tổng điểm tăng dần
 9. Tính điểm trung bình của các sinh viên
 10. Xóa sinh viên
-0. Thoát
+0. Làm sạch giao diện console
+11. Thoát
 ---------------------------------------
 
 - Khi chọn 1: Nhập 1 sinh viên và thêm vào danh sách
@@ -137,7 +138,8 @@ Tạo menu như sau:
 - Khi chọn 8: Sắp xếp danh sách sinh viên theo tổng điểm tăng dần
 - Khi chọn 9: Tính điểm trung bình của các sinh viên
 - Khi chọn 10: Xóa sinh viên theo id
-- Khi chọn 0: Thoát khỏi hệ thống và in ra dòng chữ: "Goodbye!"
+- Khi chọn 0: Làm sạch giao diện console
+- Khi chọn 11: Thoát khỏi hệ thống và in ra dòng chữ: "Goodbye!"
 
 ## Bài tập 3: Cho mảng sinh viên và mảng danh sách lớp như sau:
 
@@ -145,27 +147,27 @@ Tạo menu như sau:
 const students = [
     {
         id: 1,
-        name: 'Nguyen Van A',
+        name: 'Nguyen Van Teo',
         classId: 1
     },
     {
         id: 2,
-        name: 'Nguyen Van B',
+        name: 'Nguyen Van Ti',
         classId: 2
     },
     {
         id: 3,
-        name: 'Nguyen Van C',
+        name: 'Tran Van Tun',
         classId: 3
     },
     {
         id: 4,
-        name: 'Nguyen Van D',
+        name: 'Nguyen Thi Heo',
         classId: 1
     },
     {
         id: 5,
-        name: 'Nguyen Van E',
+        name: 'Le Thi Be',
         classId: 1
     }
 ]
@@ -181,7 +183,7 @@ const classList = [
     },
     {
         id: 3,
-        name: 'HoaTP'
+        name: 'THXD'
     },
     {
         id: 4,
